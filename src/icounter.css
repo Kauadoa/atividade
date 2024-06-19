@@ -1,0 +1,36 @@
+.counter-wrapper{
+    display: flex;
+    border: 3px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-between;
+    width: 5%;
+    height: 30px;
+}
+
+.counter-button-minus-active{
+    border: none;
+    background: transparent;
+    height: 100%;
+    color:red;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.counter-button-add-active{
+    border: none;
+    background: transparent;
+    height: 100%;
+    color:green;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.counter-button-minus-disabled{
+    border: none;
+    background: transparent;
+    height: 100%;
+    color:grey;
+    cursor: pointer;
+    font-size: larger;
+}
